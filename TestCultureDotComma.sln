@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCultureDotComma", "TestCultureDotComma\TestCultureDotComma.csproj", "{06FBCECB-2AD7-4AE6-B33A-66CEFB12183B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06FBCECB-2AD7-4AE6-B33A-66CEFB12183B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06FBCECB-2AD7-4AE6-B33A-66CEFB12183B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06FBCECB-2AD7-4AE6-B33A-66CEFB12183B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06FBCECB-2AD7-4AE6-B33A-66CEFB12183B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E465FE1-2299-475B-87C4-6A872328AC8B}
+	EndGlobalSection
+EndGlobal
