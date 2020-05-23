@@ -9,7 +9,7 @@
         <local:MainWindowViewModel />
     </Window.DataContext>
     <UniformGrid Columns="2" Rows="1">
-        <TextBox Text="{Binding Numero, Converter={local:SmartCommaConverter}}" />
+        <TextBox Text="{Binding Numero, Converter={local:SmartCommaConverter}}" FontSize="48"/>
         <Button x:Name="btnShow" Click="btnShow_Click" Content="Show" />
     </UniformGrid>
 </Window>
