@@ -37,6 +37,21 @@ namespace TestCultureDotComma
             MessageBox.Show($"{mwvm.Numero}", "Numero:");
         }
 
-    
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.OemComma || e.Key == Key.OemPeriod)
+            {
+                var caretPosition = t3.SelectionStart;
+                string s = t3.Text;
+                s=s.Insert(caretPosition, ".");
+                t3.Text=s;
+                t3.SelectionStart = caretPosition + 1;
+                t3.SelectionLength = 0;
+                e.Handled = true;
+            }
+            base.OnKeyDown(new KeyEventArgs(e.KeyboardDevice, e.InputSource, e.Timestamp, e.Key));
+
+        }
+
     }
 }
